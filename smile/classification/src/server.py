@@ -12,6 +12,7 @@ import numpy as np
 
 import shuffling
 from data import get_folds, get_fold, get_dataset
+from progress import ProgressMonitor
 
 PORT = 2117
 DEFAULT_TASK_EXPIRE = 120 # Seconds
@@ -409,6 +410,19 @@ def main(configfile, folddir, resultsdir):
     with open(configfile, 'r') as f:
         configuration = yaml.load(f)
 
+    # Count total experiments for progress monitor
+    exps = 0
+    for experiment in configuration['experiments']:
+        dataset = experiment['dataset']
+        folds = get_folds(folddir, dataset)
+        for f in range(len(folds)):
+            for r in range(experiment['reps']):
+                for n in experiment['noise']:
+                    for s in experiment['shuffled']:
+                        exps += 1
+
+    prog = ProgressMonitor(total=exps, msg='Generating Shuffled Bags')
+
     # Generate tasks from experiment list
     tasks = {}
     for experiment in configuration['experiments']:
@@ -431,6 +445,7 @@ def main(configfile, folddir, resultsdir):
                                                             folddir, resultsdir)
                         task = Task(*key, **kwargs)
                         tasks[key] = task
+                        prog.increment()
 
     # Mark finished tasks
     for task in tasks.values():

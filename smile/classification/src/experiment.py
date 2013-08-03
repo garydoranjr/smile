@@ -10,7 +10,6 @@ from sklearn.metrics import auc_score
 
 import data
 from set_svm import SetSVM
-import misvm
 
 FOLDIR = 'folds'
 
