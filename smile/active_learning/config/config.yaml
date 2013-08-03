@@ -1,0 +1,300 @@
+experiments:
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_ajaxorange
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_apple
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_banana
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_bluescrunge
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_candlewithholder
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_cardboardbox
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_checkeredscarf
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_cokecan
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_dataminingbook
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_dirtyrunningshoe
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_dirtyworkgloves
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_fabricsoftenerbox
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_feltflowerrug
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_glazedwoodpot
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_goldmedal
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_greenteabox
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_juliespot
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_largespoon
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_rapbook
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_smileyfacedoll
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_spritecan
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_stripednotebook
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_translucentbowl
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_wd40can
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_woodrollingpin
+      reps: 10
+      queries: 50
+      initial: [5, 10, 15, 20]
+      shuffled: [0, 5, 10, 15, 20]
+      kernel: linear_av
+      params:
+          C: 1.0

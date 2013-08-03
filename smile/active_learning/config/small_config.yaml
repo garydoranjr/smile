@@ -1,0 +1,12 @@
+experiments:
+    - technique: shuffle_both
+      noise: 0.100
+      classifier: nsk
+      dataset: sival_ajaxorange
+      reps: 10
+      queries: 25
+      initial: [5, 10]
+      shuffled: [0, 5, 10]
+      kernel: linear_av
+      params:
+          C: 1.0
