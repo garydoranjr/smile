@@ -1,0 +1,30 @@
+experiments:
+    - technique: shuffle_both
+      classifier: nsk
+      dataset: tiger
+      reps: 10
+      shuffled: [0, 25, 50]
+      noise: [0.1, 0.2, 0.3, 0.4, 0.5]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      classifier: nsk
+      dataset: elephant
+      reps: 10
+      shuffled: [0, 25, 50]
+      noise: [0.1, 0.2, 0.3, 0.4, 0.5]
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - technique: shuffle_both
+      classifier: nsk
+      dataset: fox
+      reps: 10
+      shuffled: [0, 25, 50]
+      noise: [0.1, 0.2, 0.3, 0.4, 0.5]
+      kernel: linear_av
+      params:
+          C: 1.0
