@@ -390,6 +390,9 @@ def setup_rep(technique, noise, dataset, fold, rep,
         if technique == 'shuffle_both':
             shuffled_bags, shuffled_labels = shuffling.shuffle_both(
                 shuffled, initial_bags, initial_labels, noise)
+        elif technique == 'shuffle_pos':
+            shuffled_bags, shuffled_labels = shuffling.shuffle_pos(
+                shuffled, initial_bags, initial_labels, noise)
         else:
             raise Exception('Unsupported shuffling technique: %s' % technique)
 

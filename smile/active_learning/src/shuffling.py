@@ -28,3 +28,19 @@ def shuffle_both(n, bags, y, noise):
     shuffled_labels = ([True]*n_pos) + ([False]*n_neg)
 
     return shuffled_bags, shuffled_labels
+
+def shuffle_pos(n, bags, y, noise):
+    pos_bags = [bag for bag, Yi in zip(bags, y) if Yi]
+    pos_insts = sum(pos_bags, [])
+
+    pneg = 1.0 - float(len(pos_bags))/float(len(pos_insts))
+    pos_size = int(math.ceil(math.log(noise) / math.log(pneg)))
+    pos_size = max(1, pos_size)
+    pos_size = min(len(pos_insts), pos_size)
+
+    pos_shuffled = [sample(pos_insts, pos_size) for _ in range(n)]
+
+    shuffled_bags = pos_shuffled
+    shuffled_labels = ([True]*n)
+
+    return shuffled_bags, shuffled_labels
