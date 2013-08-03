@@ -34,10 +34,11 @@ specifies:
 7. The kernel used by the base classifier
 8. A dictionary of `{ parameter : value }` settings for the base classifier
 
-Results
--------
+Statistics
+----------
 
-The results are stored in a CSV-formatted file with the following columns:
+The AUC statistics are stored in a CSV-formatted file with the following
+columns:
 
 1. Shuffling Technique
 2. Base Classifier

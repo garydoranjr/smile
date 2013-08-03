@@ -28,7 +28,7 @@ started. This can be accomplished using the `make_reps.py` script as follows:
 This will make 100 bootstrap replicates of each leave-one-fold-out training set
 and put it in the `folds` directory (the redundant final argument is the output
 directory). If you later want to increase the number of bootstrap replicates,
-you can rerun the script with, for example, `-r 250`, and only the additional
+you can rerun the script (for example, with `-r 250`), and only the additional
 replicates (150 in this example) will be generated.
 
 Configuration
