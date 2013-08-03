@@ -45,4 +45,4 @@ The results are stored in a CSV-formatted file with the following columns:
 4. Kernel
 5. Worst Case Noise Level
 6. Number of Shuffled Bags
-7. Average AUC (across repetitions)
+7. Average AUC (across repetitions pooled across test folds)
