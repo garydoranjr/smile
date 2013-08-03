@@ -1,0 +1,21 @@
+experiments:
+    - classifier: nsk
+      dataset: elephant
+      reps: 1500
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - classifier: nsk
+      dataset: fox
+      reps: 1500
+      kernel: linear_av
+      params:
+          C: 1.0
+
+    - classifier: nsk
+      dataset: tiger
+      reps: 1500
+      kernel: linear_av
+      params:
+          C: 1.0
